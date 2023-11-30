@@ -3,5 +3,6 @@ public class Main {
         Internet proxy = new InternetProxy();
         proxy.connect("www.gfg.in");
         proxy.connect("abc.co.in");
+        proxy.connect("leetcode.co.in");
     }
 }
