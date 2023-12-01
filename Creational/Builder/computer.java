@@ -1,6 +1,6 @@
 public class computer {
     private int RAM = 8;
-    private String OS = "Android";
+    private String OS = "Windows";
     private double size = 15.7;
 
     // optional parameters

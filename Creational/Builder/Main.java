@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        ItemBuilder m = new ItemBuilder();
-        Itemlist il = m.itembuid();
-        il.showList();
-        System.out.println("Total cost:" + il.TotalCost());
+        computer cb = new ComputerBuilder(24, "Linux", 13).setBluetooth(true).setIsgraphics(true).Build();
+        System.out.println(cb);
     }
 }
