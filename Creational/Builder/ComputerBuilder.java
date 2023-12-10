@@ -3,6 +3,21 @@ public class ComputerBuilder {
     public String OS;
     public double size;
 
+    public ComputerBuilder setRam(int RAM) {
+        this.RAM = RAM;
+        return this;
+    }
+
+    public ComputerBuilder setOs(String OS) {
+        this.OS = OS;
+        return this;
+    }
+
+    public ComputerBuilder setSIze(double size) {
+        this.size = size;
+        return this;
+    }
+
     // optional parameters
     public boolean isgraphics;
     public boolean isBluetooth;
