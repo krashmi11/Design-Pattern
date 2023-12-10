@@ -9,8 +9,5 @@ public class Football extends Template {
         System.out.println("Football game ended");
     }
 
-    @Override
-    void initialize() {
-        super.initialize();
-    }
+    
 }

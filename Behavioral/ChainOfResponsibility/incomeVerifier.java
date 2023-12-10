@@ -5,9 +5,8 @@ public class incomeVerifier extends Validator {
         if (a.info.equals("income")) {
             System.out.println("Authenticaton done by Income Verifier...");
         } else {
-            if (nexValidator != null) {
-                nexValidator.verify(a);
-            }
+            setValidator(new recordVerifier());
+            nexValidator.verify(a);
         }
     }
 

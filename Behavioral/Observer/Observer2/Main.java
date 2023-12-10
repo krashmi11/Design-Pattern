@@ -1,5 +1,3 @@
-package Observer2;
-
 public class Main {
     public static void main(String[] args) {
         Observor binary = new Binary();
