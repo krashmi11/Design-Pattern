@@ -6,7 +6,7 @@ public class Main {
         Shape redrect = new Colordecorator(rect);
         redrect.getShape();
 
-        Shape borderShape = new Borderdecorator(rect);
+        Shape borderShape = new Borderdecorator(redrect);
         borderShape.getShape();
     }
 }
